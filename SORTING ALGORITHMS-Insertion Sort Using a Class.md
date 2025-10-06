@@ -35,8 +35,27 @@ To develop a Python class with functions to:
 
 ## 💻 PROGRAM:
 
-ADD CODE HERE
+class Numbers:
+    def __init__(self):
+        self.lst = []
+
+    def create_list(self):
+        n = int(input())
+        self.lst = [int(input()) for _ in range(n)]
+
+    def sorting(self):
+        n = len(self.lst)
+        for i in range(n):
+            for j in range(0, n - i - 1):
+                if self.lst[j] > self.lst[j + 1]:
+                    self.lst[j], self.lst[j + 1] = self.lst[j + 1], self.lst[j]
+
+    def print_List(self):
+        for num in self.lst:
+            print(num)
 
 ## OUTPUT:
+<img width="874" height="649" alt="image" src="https://github.com/user-attachments/assets/7c379537-aed7-4649-ae96-b2fa60471a9d" />
 
 ## RESULT:
+The program is excuted and verified.
