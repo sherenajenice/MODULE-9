@@ -1,4 +1,4 @@
-## 🧮 List Comprehension:Scalar multiple of a set of numbers
+## 🧮 List Comprehension: Scalar Multiple of a Set of Numbers
 
 ## 🎯 AIM:
 To write a Python program to store a scalar multiple of a set of numbers in a list using list comprehension.
